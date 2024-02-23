@@ -1,0 +1,80 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ApiGatewayApplication",
+            "request": "launch",
+            "mainClass": "com.imon.apigateway.ApiGatewayApplication",
+            "projectName": "api-gateway"
+        },
+        {
+            "type": "java",
+            "name": "RegisterServiceApplication",
+            "request": "launch",
+            "mainClass": "com.imon.registerservice.RegisterServiceApplication",
+            "projectName": "register-service"
+        },
+        {
+            "type": "java",
+            "name": "question-service-1",
+            "request": "launch",
+            "mainClass": "com.imon.questionservice.QuestionServiceApplication",
+            "projectName": "question-service",
+            "args": [
+                "--server.port=8081"
+            ],
+            "console": "internalConsole"
+        },
+        {
+            "type": "java",
+            "name": "question-service-2",
+            "request": "launch",
+            "mainClass": "com.imon.questionservice.QuestionServiceApplication",
+            "projectName": "question-service",
+            "args": [
+                "--server.port=8082"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "question-service-3",
+            "request": "launch",
+            "mainClass": "com.imon.questionservice.QuestionServiceApplication",
+            "projectName": "question-service",
+            "args": [
+                "--server.port=8083"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "quiz-service-1",
+            "request": "launch",
+            "mainClass": "com.imon.quizservice.QuizServiceApplication",
+            "projectName": "quiz-service",
+            "args": [
+                "--server.port=8090"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "quiz-service-2",
+            "request": "launch",
+            "mainClass": "com.imon.quizservice.QuizServiceApplication",
+            "projectName": "quiz-service",
+            "args": [
+                "--server.port=8091"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "quiz-service-3",
+            "request": "launch",
+            "mainClass": "com.imon.quizservice.QuizServiceApplication",
+            "projectName": "quiz-service",
+            "args": [
+                "--server.port=8092"
+            ]
+        }
+    ]
+}
